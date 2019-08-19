@@ -1771,7 +1771,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #6178ff;
+  background: #0d4fe0;
 }
 .feed-link,
 .chat {
@@ -2377,6 +2377,12 @@ embed {
   display: block;
   margin: 0px auto 25px auto;
 }
+.content-wrap {
+  background: rgba(255,255,255,0.7);
+}
+.header-inner {
+  background: rgba(255,255,255,0.7);
+}
 .custom-logo .site-meta-headline {
   text-align: center;
 }
@@ -2483,4 +2489,19 @@ embed {
 }
 .links-of-blogroll-inline .links-of-blogroll-item {
   display: inline-block;
+}
+body {
+  background: url("https://unsplash.it/1600/900?random");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  opacity: 1;
+  background-size: cover;
+}
+.posts-expand {
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  opacity: 1;
 }
